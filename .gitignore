@@ -1,8 +1,11 @@
 .DS_STORE
+dist/
+.cache/
 node_modules
 scripts/flow/*/.flowconfig
 *~
 *.pyc
+package-lock.json
 .grunt
 _SpecRunner.html
 __benchmarks__
