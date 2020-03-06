@@ -6,12 +6,12 @@ import { Button} from 'react-bootstrap';
 
 export default class Counter extends React.Component {
   state = {
-    count: 0
+    count: 1
   };
 
   increment = () => {
     this.setState({
-      count: (this.state.count + 1)
+      count: (this.state.count * 8)
     });
   };
 
